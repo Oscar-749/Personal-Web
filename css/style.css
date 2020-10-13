@@ -78,5 +78,66 @@ header .text-header {
 }
 
 .contenedor-servicio {
+    display: flex;
     justify-content: space-evenly;
 }
+
+.img-pc {
+    width: 47%;
+}
+
+.servicio-text {
+     width: 48%;
+}
+
+.servicio-text h3 {
+    margin-bottom: 15px;
+}
+
+.servicio-text h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    box-shadow: 0 0 6px 0 ;
+    margin-right: 5px;
+}
+
+.servicio-text p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.portafolio {
+    background: #f2f2f2;   
+}
+
+.galeria-portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-portfolio {
+    width: 24%;
+    margin-bottom: 10px;
+}
+
+.img-portfolio > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* .hover-galeria {
+    margin-left: 350px;
+}
+
+.contenedor-footer {
+
+} */
